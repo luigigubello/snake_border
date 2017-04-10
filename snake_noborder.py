@@ -1,4 +1,4 @@
-# SNAKE
+# SNAKE WITHOUT BORDER
 # This is a good exercise to use the curses module in Python
 # I suggest you read these two codes, I have found them very useful
 # Code 1: https://gist.github.com/sanchitgangwar/2158089

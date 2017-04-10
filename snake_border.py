@@ -128,7 +128,7 @@ while (k != ord('q') and k != ord('Q')):
 			break	
 		g = curses.KEY_DOWN
 		k = win.getch()
-    		if k == -1:
+		if k == -1:
 			k = curses.KEY_DOWN
 		# Press P key to pause 
 		elif (k == ord('p') or k == ord('P')):
@@ -203,7 +203,7 @@ while (k != ord('q') and k != ord('Q')):
 			break	
 		g = curses.KEY_UP
 		k = win.getch()
-    		if k == -1:
+		if k == -1:
 			k = curses.KEY_UP
 		elif (k == ord('p') or k == ord('P')):
 			k = 0		
@@ -275,7 +275,7 @@ while (k != ord('q') and k != ord('Q')):
 			break	
 		g = curses.KEY_RIGHT
 		k = win.getch()
-    		if k == -1:
+		if k == -1:
 			k = curses.KEY_RIGHT
 		elif (k == ord('p') or k == ord('P')):
 			k = 0		
@@ -346,7 +346,7 @@ while (k != ord('q') and k != ord('Q')):
 			break	
 		g = curses.KEY_LEFT
 		k = win.getch()
-    		if k == -1:
+		if k == -1:
 			k = curses.KEY_LEFT
 		elif (k == ord('p') or k == ord('P')):
 			k = 0		
@@ -369,7 +369,7 @@ while (k != ord('q') and k != ord('Q')):
 		x_title = int((width // 2) - (len(title) // 2) - len(title) % 2)
 		x_subtitle = int((width // 2) - (len(subtitle) // 2) - len(subtitle) % 2)
 		y_title = int((height // 2) - 2)
-       		win.addstr(y_title, x_title, title)
+		win.addstr(y_title, x_title, title)
 		win.addstr(y_title+1, x_subtitle, subtitle)
 	k = win.getch()
 	if (k == ord('q') or k == ord('Q')):
